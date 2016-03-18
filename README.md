@@ -9,4 +9,4 @@ CSS3_effects(CSS3 特效，无脚本纯sass编译)
 
 欢迎反馈错误和交流学习<br>
 
-反馈邮箱：sublime3@163.com
+反馈邮箱：348560971@qq.com
