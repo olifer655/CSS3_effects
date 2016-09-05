@@ -28,90 +28,90 @@ body{
 	  overflow: hidden;
   }
   span:after{
-			content: "";
-			position: absolute;
-			top: 0; 
-			left: 0; 
-			bottom: 0; 
-			right: 0;
-			background-image: 
-			   -webkit-gradient(linear, 0 0, 100% 100%, 
-			      color-stop(.25, rgba(255, 255, 255, .2)), 
-			      color-stop(.25, transparent), 
-			      color-stop(.5, transparent), 
-			      color-stop(.5, rgba(255, 255, 255, .2)), 
-			      color-stop(.75, rgba(255, 255, 255, .2)), 
-			      color-stop(.75, transparent), to(transparent) );
-          overflow: hidden;
-	      -webkit-background-size:50px;
-          -webkit-animation: move 2s linear infinite;
-          -moz-animation: move 2s linear infinite;
-          -o-animation: move 2s linear infinite;
-		}
+  	content: "";
+  	position: absolute;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+  	background-image: 
+    -webkit-gradient(linear, 0 0, 100% 100%, 
+      color-stop(.25, rgba(255, 255, 255, .2)), 
+      color-stop(.25, transparent), 
+      color-stop(.5, transparent), 
+      color-stop(.5, rgba(255, 255, 255, .2)), 
+      color-stop(.75, rgba(255, 255, 255, .2)), 
+      color-stop(.75, transparent), to(transparent) );
+    overflow: hidden;
+    -webkit-background-size:50px;
+    -webkit-animation: move 2s linear infinite;
+    -moz-animation: move 2s linear infinite;
+    -o-animation: move 2s linear infinite;
+  }
 }
 
 .bar-cil{
-	     width: 100px;
-	     height: 100px;
-	     @include border-radius(70px);
-	     background: transparent;
-	     margin: 0 auto;
-	     border:9px solid rgba(0,183,229,.9);
-       border-top: 9px solid transparent;
-       border-left: 9px solid transparent;
-       box-shadow: 0 0 50px #2187e7;
-       padding: 10px;
-       -webkit-animation: run1 .9s linear infinite;
-       -moz-animation: run1 .9s linear infinite;
-       -o-animation: run1 .9s linear infinite;
+  width: 100px;
+  height: 100px;
+  @include border-radius(70px);
+  background: transparent;
+  margin: 0 auto;
+  border:9px solid rgba(0,183,229,.9);
+  border-top: 9px solid transparent;
+  border-left: 9px solid transparent;
+  box-shadow: 0 0 50px #2187e7;
+  padding: 10px;
+  -webkit-animation: run1 .9s linear infinite;
+  -moz-animation: run1 .9s linear infinite;
+  -o-animation: run1 .9s linear infinite;
 }
 .bars-cil{
-             width: 80px;
-	           height: 80px;
-	           margin: 0 auto;
-	           position: relative;
-	           top: -120px;
-	           @include border-radius(50px);
-	           background: transparent;
-	           border:9px solid rgba(0,183,229,.9);
-             border-top: 9px solid transparent;
-             border-left: 9px solid transparent;
-             box-shadow: 0 0 30px #2187e7;
-             -webkit-animation: run2 .9s linear infinite;
-             -moz-animation: run2 .9s linear infinite;
-             -o-animation: run2 .9s linear infinite;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  top: -120px;
+  @include border-radius(50px);
+  background: transparent;
+  border:9px solid rgba(0,183,229,.9);
+  border-top: 9px solid transparent;
+  border-left: 9px solid transparent;
+  box-shadow: 0 0 30px #2187e7;
+  -webkit-animation: run2 .9s linear infinite;
+  -moz-animation: run2 .9s linear infinite;
+  -o-animation: run2 .9s linear infinite;
 }
 
 .bar-circle{
-	   width: 100px;
-       height: 100px;
-       margin: 20px auto;
-       border:9px solid rgba(0,183,229,.9);
-       border-left: 9px solid rgba(0,0,0,0);
-       border-right: 9px solid rgba(0,0,0,0);
-       background: transparent;
-       @include border-radius(70px);
-       padding: 10px;
-       box-shadow: 0 0 50px #2187e7;
-       -webkit-animation: bar-cir .9s linear infinite;
-       -moz-animation: bar-cir .9s linear infinite;
-       -o-animation: bar-cir .9s linear infinite;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border:9px solid rgba(0,183,229,.9);
+  border-left: 9px solid rgba(0,0,0,0);
+  border-right: 9px solid rgba(0,0,0,0);
+  background: transparent;
+  @include border-radius(70px);
+  padding: 10px;
+  box-shadow: 0 0 50px #2187e7;
+  -webkit-animation: bar-cir .9s linear infinite;
+  -moz-animation: bar-cir .9s linear infinite;
+  -o-animation: bar-cir .9s linear infinite;
 }
 .bars-circle{
-       width: 80px;
-       height: 80px;
-       margin: 0px auto;
-       border:9px solid rgba(0,183,229,.9);
-       border-top: 9px solid rgba(0,0,0,0);
-       border-bottom: 9px solid rgba(0,0,0,0);
-       background: transparent;
-       @include border-radius(50px);
-       box-shadow: 0 0 30px #2187e7;
-       position: relative;
-       top: -136px;
-       -webkit-animation: bars-cir .9s linear infinite;
-       -moz-animation: bars-cir .9s linear infinite;
-       -o-animation: bars-cir .9s linear infinite;
+  width: 80px;
+  height: 80px;
+  margin: 0px auto;
+  border:9px solid rgba(0,183,229,.9);
+  border-top: 9px solid rgba(0,0,0,0);
+  border-bottom: 9px solid rgba(0,0,0,0);
+  background: transparent;
+  @include border-radius(50px);
+  box-shadow: 0 0 30px #2187e7;
+  position: relative;
+  top: -136px;
+  -webkit-animation: bars-cir .9s linear infinite;
+  -moz-animation: bars-cir .9s linear infinite;
+  -o-animation: bars-cir .9s linear infinite;
 }
 
 .in-blo{
